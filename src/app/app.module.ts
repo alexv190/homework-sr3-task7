@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
